@@ -1,6 +1,8 @@
 # Hibernate pre-insert and pre-update event listeners
 
-Simple demonstration how to integrate Hibernate preInsert and preUpdate event listeners in the Spring Boot application
+Simple demonstration how to integrate Hibernate preInsert and preUpdate event listeners in the Spring Boot application.
+
+Service is based on example from https://github.com/in28minutes/spring-boot-examples/
 
 Possible alternative: https://stackoverflow.com/a/16045272
 
