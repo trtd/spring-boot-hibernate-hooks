@@ -14,9 +14,9 @@ Possible alternative: https://stackoverflow.com/a/16045272
         -H "Content-Type:application/json" \
         -d \
         '{"from":"USD","to":"EUR","conversionMultiple":1.0}' \
-        'http://localhost:8000/currency-exchange/from/USD/to/EUR'
+        'http://localhost:8000/currency-exchange'
     curl -i -X PUT \
         -H "Content-Type:application/json" \
         -d \
         '{"conversionMultiple":1.1}' \
-        'http://localhost:8000/currency-exchange'
+        'http://localhost:8000/currency-exchange/from/USD/to/EUR'
